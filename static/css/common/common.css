@@ -1,0 +1,74 @@
+/*
+Syntax error: File to import not found or unreadable: _components.scss.
+              Load paths:
+                E:/newDouyaENV/newDouya/static/sass
+                d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 18 of E:/newDouyaENV/newDouya/static/sass/common/common.scss
+
+Backtrace:
+E:/newDouyaENV/newDouya/static/sass/common/common.scss:18
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:67:in `rescue in import'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:45:in `import'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:28:in `imported_file'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/import_node.rb:37:in `css_import?'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `map'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:100:in `visit'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/tree/root_node.rb:20:in `render'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/engine.rb:315:in `_render'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.12/lib/sass/engine.rb:262:in `render'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/path.rb:31:in `create'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:26:in `block in created'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `each'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:25:in `created'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/state/directory.rb:17:in `refresh'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `call'
+d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+d:/Ruby193/bin/compass:23:in `load'
+d:/Ruby193/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: _components.scss.\A               Load paths:\A                 E:/newDouyaENV/newDouya/static/sass\A                 d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 d:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 18 of E:/newDouyaENV/newDouya/static/sass/common/common.scss"; }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>  
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+
+    <title>{% block title %}{% endblock %}</title>  
+ 
+    <link rel="stylesheet" href="/static/css/commom.css">   
+    
+    {% block css %}{% endblock %}
+
+</head>  
+
+<body>     
+    <header id="header">
+    </header>
+
+    <div id="main">
+        <section id="main-left">{% block main-left %}{% endblock %}</section>
+        <aside id="main-right">{% block main-right %}{% endblock %} </aside>
+        {% block main %}{% endblock %} 
+    </div>
+      
+    <footer id="footer">
+    </footer>
+
+    <script data-main="main" src="require.js"></script>
+
+    {% block js %}{% endblock %}
+
+</body>  
+    
+</html>
+
+
+    
